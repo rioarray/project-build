@@ -1,5 +1,6 @@
 html,
 body {
+  background: #f7f7f7 !important;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -13,4 +14,42 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.form-type {
+  padding-top: 1rem;
+}
+
+.form-type.ui.form .inline.fields {
+  margin-bottom: 0 !important;
+}
+
+.ui.center.aligned.header,
+.ui.centered.header {
+  margin-top: 3em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.input-tag-container {
+  background: #fff;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  border-radius: 0.28571429rem;
+  box-shadow: 0 0 0 0 transparent inset;
+  height: 126px;
+}
+
+.btn-action-container {
+  padding: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.react-tag-input {
+  border: none !important;
+  max-height: 126px !important;
+}
+
+.react-tag-input__tag {
+  font-size: 14px !important;
 }
